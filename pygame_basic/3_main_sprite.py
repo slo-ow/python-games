@@ -20,7 +20,7 @@ chracter = pygame.image.load(
 chracter_size = chracter.get_rect().size  # 이미지 크기를 구해옴
 chracter_width = chracter_size[0]  # 캐릭터 가로 크기
 chracter_heigth = chracter_size[1]  # 캐릭터 세로 크기
-chracter_x_pos = screen_width / 2  # 화면 가로의 절반 크기
+chracter_x_pos = (screen_width / 2) - (chracter_width / 2)  # 화면 가로의 절반 크기
 chracter_y_pos = screen_height - chracter_heigth  # 화면 세로 크기 가장 아래에 해당하는 곳에 위치
 
 
